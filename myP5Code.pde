@@ -9,5 +9,15 @@ setup = function() {
   }
 
 
+var myFOOOODS = [ "Penne alla Vodka", "Bolegense", "Tiramisu"]
+
+fill(121, 163, 232);
+text( myFOOOODS[0], 20 , 150 );
+text( myFOOOODS[1], 20, 195  );
+text(myFOOOODS[2], 20, 240);
+
+fill(181, 98, 240)
+text("My top " + myFOOOODS.length + " myFOOOODS", 30, 80 );
+
 };
 
